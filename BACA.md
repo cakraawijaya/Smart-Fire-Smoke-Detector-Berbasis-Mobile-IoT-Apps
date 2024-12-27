@@ -83,7 +83,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 <th width="840">Pengkabelan</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Diagram/Device Wiring.jpg" alt="device-wiring"></td>
+<td><img src="Assets/Documentation/Table/Device Wiring.jpg" alt="device-wiring"></td>
 </tr>
 </table>
 
