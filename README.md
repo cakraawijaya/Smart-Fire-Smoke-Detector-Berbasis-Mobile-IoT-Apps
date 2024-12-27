@@ -18,7 +18,7 @@ The increase in population in a country is one of the development capitals. A la
 | Application Support | MIT App Inventor |
 | Driver | CH340 USB Driver |
 | IoT Platform | Antares |
-| Communications Protocol | • Inter Integrated Circuit (I2C)<br>• Transmission Control Protocol/Internet Protocol (TCP/IP)<br>• Message Queuing Telemetry Transport (MQTT) |
+| Communications Protocol | • Inter Integrated Circuit (I2C)<br>• Hypertext Transfer Protocol (HTTP)<br>• Message Queuing Telemetry Transport (MQTT) |
 | IoT Architecture | 4 Layer |
 | Database |  Firebase |
 | Programming Language | C/C++ |

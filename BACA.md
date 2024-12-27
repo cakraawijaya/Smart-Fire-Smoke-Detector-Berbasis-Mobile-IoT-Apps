@@ -18,7 +18,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 | Dukungan Aplikasi | MIT App Inventor |
 | Driver | CH340 USB Driver |
 | Platform IoT | Antares |
-| Protokol Komunikasi | • Inter Integrated Circuit (I2C)<br>• Transmission Control Protocol/Internet Protocol (TCP/IP)<br>• Message Queuing Telemetry Transport (MQTT) |
+| Protokol Komunikasi | • Inter Integrated Circuit (I2C)<br>• Hypertext Transfer Protocol (HTTP)<br>• Message Queuing Telemetry Transport (MQTT) |
 | Arsitektur IoT | 4 Lapisan |
 | Basis Data |  Firebase |
 | Bahasa Pemrograman | C/C++ |
