@@ -78,6 +78,14 @@ The increase in population in a country is one of the development capitals. A la
 <td><img src="Assets/Documentation/Diagram/Systems Diagram.jpg" alt="systems-diagram"></td>
 </tr>
 </table>
+<table>
+<tr>
+<th width="840">Wiring</th>
+</tr>
+<tr>
+<td><img src="Assets/Documentation/Diagram/Device Wiring.jpg" alt="device-wiring"></td>
+</tr>
+</table>
 
 <br><br>
 
