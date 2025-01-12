@@ -39,16 +39,16 @@ String gas_status, flame_status;
 int gasAntares; int flameAntares;
 
 // Variabel untuk kalibrasi
-#define RL_Value 100
-#define x1_Value 199.150007852152
-#define x2_Value 797.3322752256328
-#define y1_Value 1.664988323698715
-#define y2_Value 0.8990240080541785
-#define x_Value 497.4177875376839
-#define y_Value 1.0876679972710004
-#define Ro_Value 6.02
-#define Voltage_Value 5.0
-#define bitADC_Value 1023.0 // Resolusi ADC berdasarkan papan pengembangan yang sedang dipakai
+#define RL 100
+#define Ro 6.02
+#define Volt 5.0
+#define ADC 1023.0 // Resolusi ADC berdasarkan papan pengembangan yang sedang dipakai
+#define x 497.4177875376839
+#define x1 199.150007852152
+#define x2 797.3322752256328
+#define y 1.0876679972710004
+#define y1 1.664988323698715
+#define y2 0.8990240080541785
 
 // Koneksi WiFi-Antares dengan protokol MQTT
 void koneksiWiFiAntares(){
@@ -69,21 +69,8 @@ void koneksiFirebase(){
   Firebase.reconnectWiFi(true);
 }
 
-// Method untuk kalibrasi sensor gas
-void mq2Calibration(){
-  mq2.RL(RL_Value); // Nilai RL yang ditetapkan
-  mq2.Ro(Ro_Value); // Nilai Ro yang ditetapkan
-  mq2.Volt(Voltage_Value); // Nilai Volt yang ditetapkan
-  mq2.BitADC(bitADC_Value); // Nilai BitADC yang ditetapkan
-  mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // Nilai m_Curve yang ditetapkan
-  mq2.bCurve(x_Value, y_Value); // Nilai b_Curve yang ditetapkan
-  mq2.getCalibrationData(); // Memanggil data kalibrasi data MQ2 untuk Gas LPG
-//  mq2.viewCalibrationData(); // Tampilkan data MQ2 yang telah di kalibrasi
-}
-
 // Method untuk baca sensor
 void bacaSensor(){
-  mq2Calibration(); // Memanggil method mq2Calibration
   gas_read = mq2.readGas(); // Baca data sensor Gas LPG
   flame_read = digitalRead(Flame_Pin); // Baca data sensor Flame
 }
@@ -179,6 +166,7 @@ void setup(){
   koneksiWiFiAntares(); // Memanggil method koneksiWiFiAntares
   koneksiFirebase(); // Memanggil method koneksiFirebase
   LCDinit(); // Memanggil method LCDinit
+  mq2.setCalibration(RL, Ro, Volt, ADC, x, x1, x2, y, y1, y2); // set calibration
 }
 
 // Method yang dijalankan berulang kali
