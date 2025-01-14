@@ -166,7 +166,7 @@ void setup(){
   koneksiWiFiAntares(); // Memanggil method koneksiWiFiAntares
   koneksiFirebase(); // Memanggil method koneksiFirebase
   LCDinit(); // Memanggil method LCDinit
-  mq2.setCalibration(RL, Ro, Volt, ADC, x, x1, x2, y, y1, y2); // Comment if you have calibrated
+  mq2.setCalibration(RL, Ro, Volt, ADC, x, x1, x2, y, y1, y2); // Berikan komentar jika sudah kalibrasi
 }
 
 // Method yang dijalankan berulang kali
