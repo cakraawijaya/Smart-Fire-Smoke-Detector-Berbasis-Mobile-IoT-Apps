@@ -71,8 +71,8 @@ void koneksiFirebase(){
 
 // Method untuk baca sensor
 void bacaSensor(){
-  gas_read = mq2.readGas(); // Baca data dengan sensor MQ2
-  flame_read = digitalRead(Flame_Pin); // Baca data dengan sensor api
+  gas_read = mq2.readGas(); // Pembacaan nilai sensor MQ2 untuk mengetahui seberapa besar ppm dari gas LPG yang bocor
+  flame_read = digitalRead(Flame_Pin); // Pembacaan reaksi dari sensor Flame terhadap api yang muncul
 }
 
 // Method untuk mengirim data sensor ke Antares
