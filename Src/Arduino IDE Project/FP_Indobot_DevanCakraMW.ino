@@ -71,8 +71,8 @@ void koneksiFirebase(){
 
 // Method untuk baca sensor
 void bacaSensor(){
-  gas_read = mq2.readGas(); // Baca data sensor Gas LPG
-  flame_read = digitalRead(Flame_Pin); // Baca data sensor Flame
+  gas_read = mq2.readGas(); // Baca data dengan sensor MQ2
+  flame_read = digitalRead(Flame_Pin); // Baca data dengan sensor api
 }
 
 // Method untuk mengirim data sensor ke Antares
@@ -166,7 +166,7 @@ void setup(){
   koneksiWiFiAntares(); // Memanggil method koneksiWiFiAntares
   koneksiFirebase(); // Memanggil method koneksiFirebase
   LCDinit(); // Memanggil method LCDinit
-  mq2.setCalibration(RL, Ro, Volt, ADC, x, x1, x2, y, y1, y2); // set calibration
+  mq2.setCalibration(RL, Ro, Volt, ADC, x, x1, x2, y, y1, y2); // Comment if you have calibrated
 }
 
 // Method yang dijalankan berulang kali
