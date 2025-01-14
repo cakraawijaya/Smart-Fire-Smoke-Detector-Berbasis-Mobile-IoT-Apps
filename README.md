@@ -153,8 +153,7 @@ void loop() {
 <br><br>
 
 ## MQ-2 Sensor Calibration for LPG Gas
-MQ-2 sensor calibration tutorial for LPG Gas: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/extras/How-To-Calibration.md">Click Here
-</a>
+MQ-2 sensor calibration tutorial for LPG Gas: <a href="https://github.com/cakraawijaya/MQ2_LPG/blob/master/extras/articles/How%20To%20Calibration.md">Click Here</a>
 
 <br><br>
 
