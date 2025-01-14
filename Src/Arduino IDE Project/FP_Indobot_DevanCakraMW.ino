@@ -101,10 +101,10 @@ void callback(char topic[], byte payload[], unsigned int length) {
 // Method untuk menentukan batasan bahaya pada sensor gas & api
 void TresholdSensorState(){
   // Cek Sensor Gas: LPG
-  if(gasAntares > 200){ // Jika gas LPG lebih dari 200 maka :
+  if(gasAntares > 500){ // Jika gas LPG lebih dari 500 ppm maka :
     gas_status = String(gasAntares)+"ppm-Danger"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Evacuate) - Alarm is ringing"); Display_LCD(" ON ", " "); // Cetak Data
     digitalWrite(Buzzer_Pin, HIGH); // Buzzer: ON
-  } else{ // Jika gas LPG tidak lebih dari 200 maka :
+  } else{ // Jika gas LPG tidak lebih dari 500 ppm maka :
     gas_status = String(gasAntares)+"ppm-Normal"; Serial.println("Gas Monitoring: "+String(gas_status)+" => (Safe) - Alarm is silent"); Display_LCD(" OFF ", " "); // Cetak Data
     digitalWrite(Buzzer_Pin, LOW); // Buzzer: OFF
   }
@@ -166,7 +166,7 @@ void setup(){
   koneksiWiFiAntares(); // Memanggil method koneksiWiFiAntares
   koneksiFirebase(); // Memanggil method koneksiFirebase
   LCDinit(); // Memanggil method LCDinit
-  mq2.setCalibration(RL, Ro, Volt, ADC, x, x1, x2, y, y1, y2); // Berikan komentar jika sudah kalibrasi
+  mq2.setCalibration(RL, Ro, Volt, ADC, x, x1, x2, y, y1, y2); // Berikan komentar jika sudah di kalibrasi
 }
 
 // Method yang dijalankan berulang kali
