@@ -46,7 +46,7 @@ The increase in population in a country is one of the development capitals. A la
    <table><tr><td width="810">
 
    ```
-   http://bit.ly/CH340_USBdriver
+   https://bit.ly/CH340_USBdriver
    ```
 
    </td></tr></table>
