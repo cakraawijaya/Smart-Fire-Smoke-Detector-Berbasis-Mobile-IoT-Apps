@@ -46,7 +46,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
    <table><tr><td width="810">
 
    ```
-   https://bit.ly/CH340_USB_Driver
+   https://bit.ly/CH340_USBdriver
    ```
 
    </td></tr></table>
