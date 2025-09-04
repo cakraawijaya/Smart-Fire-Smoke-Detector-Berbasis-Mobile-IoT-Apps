@@ -1,10 +1,10 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/cakraawijaya/Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![GitHub last commit](https://img.shields.io/github/last-commit/cakraawijaya/Smart-Fire-Smoke-Detector-Integrated-with-Mobile-IoT-Interface?logo=Codeforces&logoColor=white&color=%23F7DF1E)
 ![Project](https://img.shields.io/badge/Project-Wemos-light.svg?style=flat&logo=espressif&logoColor=white&color=%23F7DF1E)
 ![Type](https://img.shields.io/badge/Type-Apprenticeship-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
-# Smart-Fire-Smoke-Detector-Berbasis-IoT-Mobile
+# Smart Fire-Smoke Detector Integrated with Mobile IoT Interface
 <strong>Kelas Awal untuk Menjadi Insinyur IoT yang Hebat Batch 1</strong><br/><br/>
 Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jumlah penduduk yang besar dapat memengaruhi perkembangan permukiman. Namun di sisi lain, permukiman yang tidak diimbangi dengan pengaturan yang baik dapat memicu terjadinya bencana, misalnya kebakaran. Bencana kebakaran yang terjadi dapat mengakibatkan kerugian materiil dan immateriil. Oleh karena itu, tujuan dari proyek ini tidak lain adalah untuk menghasilkan sebuah sistem deteksi kebakaran yang baik. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 2 minggu. Hasil penelitian menunjukkan bahwa sistem yang dibuat ini dapat berfungsi dengan baik. Antarmuka sistem menggunakan aplikasi MIT App Inventor.
 
