@@ -105,6 +105,8 @@ Perbedaan pinout pada papan Wemos D1 R1 dan R2 ditunjukkan dengan jelas pada gam
 <br><br>
 
 ## Memindai Alamat I2C Yang Ada Pada LCD
+<table><tr><td width="840">
+
 ```ino
 /*
   =====================================================
@@ -324,7 +326,7 @@ void loop() {
 }
 ```
 
-<br><br>
+</td></tr></table><br><br>
 
 ## Kalibrasi Sensor MQ-2 Untuk Gas LPG
 Tutorial kalibrasi sensor MQ-2 untuk Gas LPG: <a href="https://github.com/cakraawijaya/MQ2_LPG/blob/master/extras/articles/Cara%20Kalibrasi.md">Klik Disini</a>
