@@ -105,6 +105,8 @@ The difference in pinouts on the Wemos D1 R1 and R2 boards is clearly shown in t
 <br><br>
 
 ## Scanning the I2C Address on the LCD
+<table><tr><td width="840">
+
 ```ino
 /*
   =====================================================
@@ -324,7 +326,7 @@ void loop() {
 }
 ```
 
-<br><br>
+</td></tr></table><br><br>
 
 ## MQ-2 Sensor Calibration for LPG Gas
 MQ-2 sensor calibration tutorial for LPG Gas: <a href="https://github.com/cakraawijaya/MQ2_LPG/blob/master/extras/articles/How%20To%20Calibration.md">Click Here</a>
