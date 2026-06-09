@@ -14,7 +14,7 @@ The increase in population in a country is one of the development capitals. A la
 | Part | Description |
 | --- | --- |
 | Development Board | Wemos D1 R2 |
-| Code Editor | Arduino IDE |
+| Code Editor | Arduino IDE 1.8.19 (Stable Legacy Version) |
 | Application Support | MIT App Inventor |
 | Driver | CH340 USB Driver |
 | IoT Platform | Antares |
