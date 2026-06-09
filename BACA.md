@@ -14,7 +14,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 | Bagian | Deskripsi |
 | --- | --- |
 | Papan Pengembangan | Wemos D1 R2 |
-| Editor Kode | Arduino IDE |
+| Editor Kode | Arduino IDE 1.8.19 (Versi Lama yang Stabil) |
 | Dukungan Aplikasi | MIT App Inventor |
 | Driver | CH340 USB Driver |
 | Platform IoT | Antares |
