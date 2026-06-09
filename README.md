@@ -22,7 +22,7 @@ The increase in population in a country is one of the development capitals. A la
 | IoT Architecture | 4 Layer |
 | Database |  Firebase |
 | Programming Language | C/C++ |
-| Arduino Library | • ESP8266WiFi (default)<br>• Wire (default)<br>• AntaresESP8266MQTT<br>• Firebase_Arduino_Client_Library_for_ESP8266_and_ESP32<br>• MQ2_LPG<br>• LiquidCrystal_I2C |
+| Arduino Library | • ESP8266WiFi (default)<br>• Wire (default)<br>• AntaresESP8266MQTT by Antares (Version: 0.9.2)<br>• Firebase_Arduino_Client_Library_for_ESP8266_and_ESP32 by Mobizt (Version: 4.3.8)<br>• MQ2_LPG by cakraawijaya (Version: 1.0.1)<br>• LiquidCrystal_I2C by Frank de Brabander (Version: 1.1.2) |
 | Actuators | Piezo buzzer (x1) |
 | Sensor | • KY-26: Fire Sensor (x1)<br>• MQ-2: Gas Sensor (x1) |
 | Display | LCD I2C (x1) |
