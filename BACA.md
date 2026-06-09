@@ -22,7 +22,7 @@ Peningkatan penduduk di suatu negara merupakan salah satu modal pembangunan. Jum
 | Arsitektur IoT | 4 Lapisan |
 | Basis Data |  Firebase |
 | Bahasa Pemrograman | C/C++ |
-| Pustaka Arduino | • ESP8266WiFi (bawaan)<br>• Wire (bawaan)<br>• AntaresESP8266MQTT<br>• Firebase_Arduino_Client_Library_for_ESP8266_and_ESP32<br>• MQ2_LPG<br>• LiquidCrystal_I2C |
+| Pustaka Arduino | • ESP8266WiFi (bawaan)<br>• Wire (bawaan)<br>• AntaresESP8266MQTT oleh Antares (Versi: 0.9.2)<br>• Firebase_Arduino_Client_Library_for_ESP8266_and_ESP32 oleh Mobizt (Versi: 4.3.8)<br>• MQ2_LPG oleh cakraawijaya (Versi: 1.0.1)<br>• LiquidCrystal_I2C oleh Frank de Brabander (Versi: 1.1.2) |
 | Aktuator | Piezo buzzer (x1) |
 | Sensor | • KY-26: Sensor Api (x1)<br>• MQ-2: Sensor Gas (x1) |
 | Layar | LCD I2C (x1) |
